@@ -3,7 +3,8 @@ import { createBrowserRouter } from "react-router";
 import MainLayout from "../layouts/MainLayout.jsx"
 import NotFound from "../pages/NotFound.jsx";
 import Home from "../pages/Home.jsx";
-
+import AddItem from "../pages/AddItem.jsx";
+import UpdateItem from "../pages/UpdateItem.jsx";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -12,6 +13,14 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home />
+      },
+      {
+        path: "items/update/:type/:id",
+        element: <UpdateItem />
+      },
+      {
+        path: "add-book",
+        element: <AddItem />
       },
       {
         path: "*",

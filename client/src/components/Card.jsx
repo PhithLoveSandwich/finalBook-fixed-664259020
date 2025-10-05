@@ -5,7 +5,7 @@ import { useNavigate, Link } from "react-router";
 
 import ComicService from "../services/comicService";
 import BookService from "../services/bookService";
-import JournalService from "../services/jounalServices";
+import JournalService from "../services/journalService";
 
 const Card = ({ item }) => {
   const navigate = useNavigate();

@@ -3,7 +3,7 @@ import Swal from "sweetalert2";
 
 import BookService from "../services/bookService";
 import ComicService from "../services/comicService";
-import JournalService from "../services/jounalServices";
+import JournalService from "../services/journalService";
 import Items from "../components/Items";
 
 const Home = () => {
